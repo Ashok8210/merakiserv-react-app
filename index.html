@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en" class="light" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Welcome to MERAKiServ | ReactJS Service Provider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta content="Welcome to MERAKiServ | ReactJS Service Provider" name="description" />
+    <meta name="author" content="MERAKiServ" />
+    <meta name="website" content="https://merakiserv.com" />
+    <meta name="email" content="baidyanath@merakiserv.com" />
+    <meta name="version" content="1.1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+
+    <link href="./css/tiny-slider.css" rel="stylesheet">
+    <link href="./css/line.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/icons.min.css" />
+    <link rel="stylesheet" href="./css/meraki.min.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body class="dark:bg-slate-900">
+
+    <nav id="topnav" class="defaultscroll is-sticky nav-sticky">
+        <div class="container">
+            <a class="logo" href="index.html">
+                <img src="./images/logo-dark.png" class="inline-block dark:hidden" alt="">
+                <img src="./images/logo-light.png" class="hidden dark:inline-block" alt="">
+            </a>
+
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div id="navigation">
+                <ul class="navigation-menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="./about/aboutus.html">About Us</a> </li>
+                    <li class="has-submenu parent-menu-item"><a href="#" class="sub-menu-item">Services <span
+                                class="menu-arrow"></span></a>
+                        <ul class="submenu">
+                            <li>
+                                <ul>
+                                    <li><a href="./services/uiuxdesignservices.html" class="sub-menu-item"> UI/UX  Design</a></li>
+                                    <li><a href="./services/development.html" class="sub-menu-item">Development</a></li>
+                                    <li><a href="./services/staffaugmentation.html" class="sub-menu-item">Staff Augmentation</a></li>
+                                    <li><a href="./services/qaservices.html" class="sub-menu-item">Software Testing & QA Services</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li class="has-submenu parent-menu-item"><a href="#" class="sub-menu-item">Expertise <span
+                                class="menu-arrow"></span></a>
+                        <ul class="submenu">
+                            <li>
+                                <ul>
+                                    <li><a href="./expertise/reactjsdevelopment.html" class="sub-menu-item"> ReactJS Development</a></li>
+                                    <li><a href="./expertise/GoLang.html" class="sub-menu-item">GoLang Development</a></li>
+                                    <li><a href="./expertise/javadevelopment.html" class="sub-menu-item">Java Development</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li><a href="./skillupgrade/skillupgrade.html">Skills upgrade</a></li>
+                    <li><a href="./contact/contactus.html">Contact US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Start Hero -->
+    <section class="swiper-slider-hero relative block h-screen" id="home">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex items-center overflow-hidden">
+                    <div class="slide-inner slide-bg-image flex items-left bg-center;"
+                        data-background="images/banner1.jpg">
+                        <div class="container">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide flex items-center overflow-hidden">
+                    <div class="slide-inner slide-bg-image flex items-center bg-center;"
+                        data-background="images/banner-moneyback.jpg">
+                    </div>
+                </div>
+
+                <div class="swiper-slide flex items-center overflow-hidden">
+                    <div class="slide-inner slide-bg-image flex items-center bg-center;"
+                        data-background="images/banner-engage.jpg">
+                        <div class="container">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next rounded-full text-center"></div>
+            <div class="swiper-button-prev rounded-full text-center"></div>
+        </div>
+    </section>
+
+
+
+    <!-- why_boston start -->
+
+    <section class="why_boston">
+        <div class="container">
+            <div class="needs_section">
+<<<<<<< Updated upstream
+=======
+                <h6 class="heading_a">Why Boston ?</h6>
+>>>>>>> Stashed changes
+                <h2 class="section-b">Our Expertise </h2>
+                <p class="paragraph-t">
+                    Create, collaborate, and turn your ideas into incredible products with the definitive platform for
+                    digital design.
+
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 main_chain">
+                    <div class="block_chain">
+                        <div class="dolar_logo">
+                            <img src="./images/frontend.png" alt="images">
+                        </div>
+                        <div class="blockchain_cnt">
+                            <h4 class="why__title">Front
+                                End Development</h4>
+                            <p class="why__text">
+                                We thoroughly configure the development environment to avoid possible bottlenecks and
+                                quickly build top-grade products.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 main_chain">
+                    <div class="block_chain">
+                        <div class="dolar_logo">
+<<<<<<< Updated upstream
+                            <img src="./images/backend.png" alt="images">
+=======
+                            <img src="./images/dollerimg2.png" alt="images">
+>>>>>>> Stashed changes
+                        </div>
+                        <div class="blockchain_cnt">
+                            <h4 class="why__title">Back-end</h4>
+                            <p class="why__text">
+<<<<<<< Updated upstream
+                                In software development, agile practices include requirements discovery and solutions
+                                improvement through the collaborative effort of self-organizing and cross-functional
+                                teams with their customer/end ... </p>
+=======
+                                There are many variations of passages of the Lorem Ipsum majority have read injected the
+                                humour.
+                            </p>
+>>>>>>> Stashed changes
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 main_chain">
+                    <div class="block_chain">
+                        <div class="dolar_logo">
+<<<<<<< Updated upstream
+                            <img src="./images/testing.png" alt="images">
+=======
+                            <img src="./images/dollerimg3.png" alt="images">
+>>>>>>> Stashed changes
+                        </div>
+                        <div class="blockchain_cnt">
+                            <h4 class="why__title">Software
+                                Testing & QA Services
+                            </h4>
+                            <p class="why__text">
+                                There are many variations of passages of the Lorem Ipsum majority have read injected the
+                                humour.
+<<<<<<< Updated upstream
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 main_chain">
+                    <div class="block_chain">
+                        <div class="dolar_logo">
+                            <img src="./images/staff.png" alt="images">
+                        </div>
+                        <div class="blockchain_cnt">
+                            <h4 class="why__title">Staff
+                                Augmentation
+                            </h4>
+                            <p class="why__text">
+                                Strengthen your business with our driven offshore talent and dedicated teams.
+=======
+z Stashed changes
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- why_boston end -->
+
+
+
+<<<<<<< Updated upstream
+
+
+
+
+
+    <section class="relative py-16 ourservices">
+=======
+    <section class="relative md:py-24 py-16"> 
+>>>>>>> Stashed changes
+        <div class="container">
+            <div class="grid grid-cols-1 pb-8 text-center">
+
+                <div class="needs_section">
+                    <h2 class="section-b">Our Services</h2>
+                    <p class="paragraph-t">
+                        We help to Create a world class product and services and its
+                        result - an unconventional UI and UX design solution that is embraced by end-users.</p>
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+                <div
+                    class="group relative p-6 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-primary-600 dark:hover:bg-primary-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                    <div class="relative overflow-hidden text-transparent -m-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-hexagon h-24 w-24 fill-primary-600/5 group-hover:fill-white/10 mx-auto">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                        <div
+                            class="absolute top-2/4 -translate-y-2/4 left-0 right-0 mx-auto text-primary-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                            <i class="uil uil-chart-line"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Design
+                            (UI/UX)</a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            Creates human centric world class design </p>
+                    </div>
+                </div>
+              
+
+                <div
+                    class="group relative p-6 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-primary-600 dark:hover:bg-primary-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                    <div class="relative overflow-hidden text-transparent -m-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-hexagon h-24 w-24 fill-primary-600/5 group-hover:fill-white/10 mx-auto">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                        <div
+                            class="absolute top-2/4 -translate-y-2/4 left-0 right-0 mx-auto text-primary-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                            <i class="uil uil-crosshairs"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Development</a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            Make your software development lifecycle more productive.</p>
+                    </div>
+                </div>
+                
+
+                <div
+                    class="group relative p-6 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-primary-600 dark:hover:bg-primary-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                    <div class="relative overflow-hidden text-transparent -m-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-hexagon h-24 w-24 fill-primary-600/5 group-hover:fill-white/10 mx-auto">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                        <div
+                            class="absolute top-2/4 -translate-y-2/4 left-0 right-0 mx-auto text-primary-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                            <i class="uil uil-airplay"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Strategy
+                        </a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            Design and develop your strategy with industry leaders.
+                        </p>
+                    </div>
+                </div>
+                
+
+                <div
+                    class="group relative p-6 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-primary-600 dark:hover:bg-primary-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                    <div class="relative overflow-hidden text-transparent -m-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-hexagon h-24 w-24 fill-primary-600/5 group-hover:fill-white/10 mx-auto">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                        <div
+                            class="absolute top-2/4 -translate-y-2/4 left-0 right-0 mx-auto text-primary-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                            <i class="uil uil-rocket"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Software
+                            QA Services</a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            Enable continuous delivery & DevOps practices for faster time-to-market.
+                        </p>
+                    </div>
+                </div>
+               
+
+
+<<<<<<< Updated upstream
+=======
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Staff
+                            Augmentation
+                        </a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            Strengthen your business with our driven offshore talent and dedicated teams.
+                        </p>
+                    </div>
+                </div>
+                
+>>>>>>> Stashed changes
+
+                <div
+                    class="group relative p-6 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-primary-600 dark:hover:bg-primary-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                    <div class="relative overflow-hidden text-transparent -m-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-hexagon h-24 w-24 fill-primary-600/5 group-hover:fill-white/10 mx-auto">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                        <div
+                            class="absolute top-2/4 -translate-y-2/4 left-0 right-0 mx-auto text-primary-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                            <i class="uil uil-users-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Skills
+                            Development</a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            Get your software resources trained with industry leaders.
+                        </p>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+       
+    </section> 
+
+
+
+    <section class="benifit_token_section ">
+        <div class="container">
+            <div class="needs_section">
+                <h2 class="section-b">Our Services</h2>
+                <p class="paragraph-t">
+                    We help to Create a world class product and services and its
+                    result - an unconventional UI and UX design solution that is embraced by end-users.
+                </p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 mt-3">
+                    <div class="bonus_cart text-center">
+                        <div class="card_thumb">
+                            <img src="./images/thumbimg.png" alt="benifit">
+                        </div>
+                        <h4 class="card_title">Early Bonus</h4>
+                        <p>
+                            There are many variations passages of Lorem Ipsum available  suffered is that more alteration.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="bonus_cart">
+                        <div class="card_thumb">
+                            <img src="./images/thumbimg.png" alt="benifit">
+                        </div>
+                        <h4 class="card_title">Early Bonus</h4>
+                        <p>
+                            There are many variations passages of Lorem Ipsum available  suffered is that more alteration.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="bonus_cart">
+                        <div class="card_thumb">
+                            <img src="./images/thumbimg.png" alt="benifit">
+                        </div>
+                        <h4 class="card_title">Early Bonus</h4>
+                        <p>
+                            There are many variations passages of Lorem Ipsum available  suffered is that more alteration.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="bonus_cart">
+                        <div class="card_thumb">
+                            <img src="./images/thumbimg.png" alt="benifit">
+                        </div>
+                        <h4 class="card_title">Early Bonus</h4>
+                        <p>
+                            There are many variations passages of Lorem Ipsum available  suffered is that more alteration.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="bonus_cart">
+                        <div class="card_thumb">
+                            <img src="./images/thumbimg.png" alt="benifit">
+                        </div>
+                        <h4 class="card_title">Early Bonus</h4>
+                        <p>
+                            There are many variations passages of Lorem Ipsum available  suffered is that more alteration.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="bonus_cart">
+                        <div class="card_thumb">
+                            <img src="./images/thumbimg.png" alt="benifit">
+                        </div>
+                        <h4 class="card_title">Early Bonus</h4>
+                        <p>
+                            There are many variations passages of Lorem Ipsum available  suffered is that more alteration.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="relative  py-16">
+        <div class="container">
+            <div class="grid grid-cols-1 pb-8 text-center">
+
+                <h2 class="section-b">Engagement model</h2>
+                <p class="paragraph-t">
+                    We welcome the crystal-clear vision of our clients and
+                    provide the best web and mobile app solutions through Fix Scope Model. Fix Scope Model is the best
+                    model to get the complete solution under a fixed budget. </p>
+
+            </div>
+            <!--end grid-->
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+                <div
+                    class="group relative p-6 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-primary-600 dark:hover:bg-primary-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                    <div class="relative overflow-hidden text-transparent -m-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-hexagon h-24 w-24 fill-primary-600/5 group-hover:fill-white/10 mx-auto">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                        <div
+                            class="absolute top-2/4 -translate-y-2/4 left-0 right-0 mx-auto text-primary-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                            <i class="uil uil-chart-line"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Fix
+                            Scope Model
+                        </a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            Reflects client requirements & business needs accurately
+                        </p>
+                    </div>
+                </div>
+                <!--end feature-->
+
+                <div
+                    class="group relative p-6 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-primary-600 dark:hover:bg-primary-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                    <div class="relative overflow-hidden text-transparent -m-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-hexagon h-24 w-24 fill-primary-600/5 group-hover:fill-white/10 mx-auto">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                        <div
+                            class="absolute top-2/4 -translate-y-2/4 left-0 right-0 mx-auto text-primary-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                            <i class="uil uil-crosshairs"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Time
+                            & Material</a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            We welcome the obscure vision through Time and Material Model that supports the Agile
+                            Development Process. </p>
+                    </div>
+                </div>
+                <!--end feature-->
+
+                <div
+                    class="group relative p-6 shadow dark:shadow-gray-700 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-primary-600 dark:hover:bg-primary-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                    <div class="relative overflow-hidden text-transparent -m-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-hexagon h-24 w-24 fill-primary-600/5 group-hover:fill-white/10 mx-auto">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                        <div
+                            class="absolute top-2/4 -translate-y-2/4 left-0 right-0 mx-auto text-primary-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                            <i class="uil uil-airplay"></i>
+                        </div>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href=""
+                            class="text-lg font-medium group-hover:text-white transition-all duration-500 ease-in-out">Hire
+                            Team
+
+                        </a>
+                        <p
+                            class="text-slate-400 group-hover:text-white/50 transition-all duration-500 ease-in-out mt-3">
+                            The Extended Team is a model where the client can control the entire development team
+                            remotely.
+                        </p>
+                    </div>
+                </div>
+                <!--end feature-->
+            </div>
+        </div>
+        <!--end container-->
+
+
+
+    </section>
+
+
+<<<<<<< Updated upstream
+=======
+    <div class="relative">
+        <div class="shape overflow-hidden z-1 text-gray-50 dark:text-slate-800">
+            <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </div>
+    <!-- End -->
+
+>>>>>>> Stashed changes
+    <!-- Start -->
+    <section class="relative py-16 bg-gray-50 dark:bg-slate-800">
+
+        <div class="container md:mb-12">
+            <div class="grid grid-cols-1 text-center">
+                <h3
+                    class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">
+                    Why MERAKiServ…. </h3>
+
+
+            </div>
+            <!--end grid-->
+        </div>
+        <!--end container-->
+        <div class="container">
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-[30px]">
+                <div class="flex">
+                    <i data-feather="help-circle" class="fea icon-ex-md text-primary-600 mr-3"></i>
+                    <div class="flex-1">
+                        <h5 class="mb-2 text-xl font-semibold">Cost & Time <span
+                                class="text-primary-600">Effective</span></h5>
+                        <p class="text-slate-400">With our skilled developers having an ability of reusing components,
+                            there is a lot of saving in time and cost.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <i data-feather="help-circle" class="fea icon-ex-md text-primary-600 mr-3"></i>
+                    <div class="flex-1">
+                        <h5 class="mb-2 text-xl font-semibold">Variety of Engagement Models</h5>
+                        <p class="text-slate-400">We have a range of hiring models that can be confirmed based on what
+                            is most suitable to the project.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <i data-feather="help-circle" class="fea icon-ex-md text-primary-600 mr-3"></i>
+                    <div class="flex-1">
+                        <h5 class="mb-2 text-xl font-semibold">Complete Client Satisfaction
+                        </h5>
+                        <p class="text-slate-400">Happy customers are the key and we ensure high-end quality gets
+                            delivered to our clients all the while.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <i data-feather="help-circle" class="fea icon-ex-md text-primary-600 mr-3"></i>
+                    <div class="flex-1">
+                        <h5 class="mb-2 text-xl font-semibold"> Use Agile
+                            <span class="text-primary-600">methodology</span>
+                        </h5>
+                        <p class="text-slate-400">In software development, agile practices include requirements
+                            discovery and solutions improvement through the collaborative effort of self-organizing and
+                            cross-functional teams with their customer/end</p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <i data-feather="help-circle" class="fea icon-ex-md text-primary-600 mr-3"></i>
+                    <div class="flex-1">
+                        <h5 class="mb-2 text-xl font-semibold"> High Data Security</h5>
+                        <p class="text-slate-400">Data security refers to the process of protecting data from
+                            unauthorized access and data corruption throughout its lifecycle. Data security includes
+                            data encryption, hashing, tokenization, and key management practices that protect data
+                            across all applications and platforms.</p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <i data-feather="help-circle" class="fea icon-ex-md text-primary-600 mr-3"></i>
+                    <div class="flex-1">
+                        <h5 class="mb-2 text-xl font-semibold"> Experience Team
+                        </h5>
+                        <p class="text-slate-400">The people throughout all levels of an organisation that are
+                            responsible for creating, maintaining, and improving the customer experience. Customer
+                            experience team roles are more diverse than you might imagine.</p>
+                    </div>
+                </div>
+            </div>
+            <!--end grid-->
+        </div>
+        <!--end container-->
+
+
+    </section>
+    <!--end section-->
+    <div class="relative">
+        <div class="shape overflow-hidden z-1 text-gray-900 dark:text-dark-footer">
+            <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </div>
+    <!-- End -->
+
+    
+    <footer class="footer bg-gray-900 dark:bg-dark-footer relative text-gray-200 dark:text-gray-200">
+        <div class="container">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12">
+                    <div class="py-[60px] px-0">
+                        <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                            <div class="lg:col-span-4 md:col-span-12">
+                                <a href="#" class="text-[22px] focus:outline-none">
+                                    <img src="./images/logo-light.png" alt="">
+                                </a>
+                                <p class="mt-6 text-gray-300">Social</p>
+                                <ul class="list-none mt-6">
+                                    <li class="inline"><a href=""
+                                            class="btn btn-icon btn-sm border !border-gray-800 rounded-md hover:border-primary-600 dark:hover:border-primary-600 hover:bg-primary-600 dark:hover:bg-primary-600"><i
+                                                data-feather="facebook" class="h-4 w-4"></i></a></li>
+                                    <li class="inline"><a href=""
+                                            class="btn btn-icon btn-sm border !border-gray-800 rounded-md hover:border-primary-600 dark:hover:border-primary-600 hover:bg-primary-600 dark:hover:bg-primary-600"><i
+                                                data-feather="instagram" class="h-4 w-4"></i></a></li>
+                                    <li class="inline"><a href=""
+                                            class="btn btn-icon btn-sm border !border-gray-800 rounded-md hover:border-primary-600 dark:hover:border-primary-600 hover:bg-primary-600 dark:hover:bg-primary-600"><i
+                                                data-feather="twitter" class="h-4 w-4"></i></a></li>
+                                    <li class="inline"><a href=""
+                                            class="btn btn-icon btn-sm border !border-gray-800 rounded-md hover:border-primary-600 dark:hover:border-primary-600 hover:bg-primary-600 dark:hover:bg-primary-600"><i
+                                                data-feather="linkedin" class="h-4 w-4"></i></a></li>
+                                </ul>
+                             
+                            </div>
+                          
+
+                            <div class="lg:col-span-2 md:col-span-4">
+                                <h5 class="tracking-[1px] text-gray-100 font-semibold">Services</h5>
+                                <ul class="list-none footer-list mt-6">
+
+                                    <li><a href="./services/uiuxdesignservices.html" 
+                                        class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"><i
+                                        class="uil uil-angle-right-b me-1"></i> UI/UX
+                                        Design</a></li>
+                                <li><a href="./services/development.html" 
+                                    class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"><i
+                                    class="uil uil-angle-right-b me-1"></i>Development</a></li>
+                                <li><a href="./services/staffaugmentation.html" 
+                                    class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"><i
+                                    class="uil uil-angle-right-b me-1"></i>Staff
+                                        Augmentation</a></li>
+                                <li><a href="./services/qaservices.html" 
+                                    class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"><i
+                                    class="uil uil-angle-right-b me-1"></i>Software Testing & QA
+                                        Services</a></li>
+                                </ul>
+                            </div>
+                            <!--end col-->
+
+                            <div class="lg:col-span-3 md:col-span-4">
+                                <h5 class="tracking-[1px] text-gray-100 font-semibold">Expertise</h5>
+                                <ul class="list-none footer-list mt-6">
+                                    <li><a href="./expertise/reactjsdevelopment.html"
+                                            class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"><i
+                                                class="uil uil-angle-right-b me-1"></i> ReactJS Development</a></li>
+                                    <li><a href="./expertise/GoLang.html"
+                                            class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"><i
+                                                class="uil uil-angle-right-b me-1"></i>GoLang Development</a></li>
+                                    
+                                                <li><a href="./expertise/javadevelopment.html"
+                                                    class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"><i
+                                                        class="uil uil-angle-right-b me-1"></i>Java Development</a></li>
+                                            
+
+
+                                </ul>
+                            </div>
+                            <!--end col-->
+
+                            <div class="lg:col-span-3 md:col-span-4">
+                                <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                                  
+                                    About Us</h5>
+
+                                    <ul class="list-none footer-list mt-6">
+
+                                        <li><a href="./about/aboutus.html" 
+                                            class="text-gray-300 hover:text-gray-400 transition-all duration-500 ease-in-out"><i
+                                            class="uil uil-angle-right-b me-1"></i> About Us</a></li>
+
+                                            </ul>
+                               
+                            </div>
+                        
+                        </div>
+                       
+                    </div>
+                   
+                </div>
+            </div>
+          
+        </div>
+
+        <div class="py-[30px] px-0 border-t border-gray-800">
+            <div class="container text-center">
+                <div class="grid md:grid-cols-2 items-center">
+                    <div class="md:text-left text-center">
+                        <p class="mb-0">©
+                            <script>document.write(new Date().getFullYear()) </script>
+                             <a href="https://MERAKiServ.com/"
+                                target="_blank" class="text-reset">MERAKiServ</a>.
+                        </p>
+                    </div>
+
+                </div>
+            
+            </div>
+          
+        </div>
+    </footer>
+
+
+    <a href="#" onclick="topFunction()" id="back-to-top"
+        class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-primary-600 text-white leading-9"><i
+            class="uil uil-arrow-up"></i></a>
+
+
+    <script src="./js/tiny-slider.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/feather.min.js"></script>
+    <script src="./js/plugins.init.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
